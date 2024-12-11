@@ -1,0 +1,129 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.main {
+  width: 100%;
+  height: 757px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section1 {
+  height: 730px;
+  width: 600px;
+  /* border: 1px solid white; */
+  margin-top: 20px;
+  background-image: url(p1.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.section2 {
+  height: 730px;
+  width: 760px;
+  /* border: 1px solid black; */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.second {
+  height: 280px;
+  width: 720px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.middle {
+  height: 300px;
+  width: 640px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.last {
+  height: 280px;
+  width: 720px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 10px;
+}
+
+.box1 {
+  height: 270px;
+  width: 350px;
+  /* border: 1px solid white; */
+  background-image: url(p2.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.box2 {
+  height: 270px;
+  width: 350px;
+  /* border: 1px solid white; */
+  background-image: url(p3.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font: bold;
+}
+
+#para {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
+
+#heading2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .form-group label {
+    width: 50px; 
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  }
+  
+  .form-group input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  button{
+    height: 40px;
+    width: 700px;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+  }
